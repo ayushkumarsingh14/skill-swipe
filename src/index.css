@@ -22,3 +22,15 @@ body {
   background: white;
   opacity: 1;
 }
+
+@font-face {
+  font-family: 'OskariregularG2';
+  src: url('/fonts/OskariregularG2.woff2') format('woff2'),
+       url('/fonts/OskariregularG2.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-oskari {
+  font-family: 'OskariregularG2', sans-serif;
+}

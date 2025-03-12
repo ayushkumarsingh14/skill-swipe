@@ -1,13 +1,15 @@
 import React from 'react';
 import { FaHeart, FaPlay, FaMapMarkerAlt, FaShare } from 'react-icons/fa';
+import megaphone from '../assets/megaphone.png';
 
 function Hero() {
   return (
-    <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row">
-      <div className="w-full md:w-1/2">
-        <h1 className="text-6xl font-bold mb-4 tracking-tight">
+    <section className="container mx-auto px-4 py-16 grid md:grid-cols-2 items-center gap-8">
+      {/* Left Section: Text Content */}
+      <div className="text-center md:text-left">
+        <h1 className="text-6xl font-bold mb-4 tracking-tight leading-tight">
           skill.<br />
-          <span className="bg-[#c1ff72] px-2">swipe.</span><br />
+          <span className="text-[#9EC500] px-2">swipe.</span><br />
           excel.
         </h1>
         <p className="text-xl mb-8">
@@ -17,14 +19,10 @@ function Hero() {
           GET STARTED
         </button>
       </div>
-      <div className="w-full md:w-1/2 relative">
-        <div className="absolute right-0 flex flex-col gap-4">
-          <FaHeart className="text-2xl hover:text-red-500 cursor-pointer" />
-          <FaShare className="text-2xl hover:text-blue-500 cursor-pointer" />
-          <FaPlay className="text-2xl hover:text-green-500 cursor-pointer" />
-          <FaMapMarkerAlt className="text-2xl hover:text-yellow-500 cursor-pointer" />
-        </div>
-        <img src="/megaphone.svg" alt="Megaphone" className="w-full" />
+
+      {/* Right Section: Image */}
+      <div className="flex justify-center md:justify-end">
+        <img src={megaphone} alt="Megaphone" className="max-w-full h-auto" />
       </div>
     </section>
   );

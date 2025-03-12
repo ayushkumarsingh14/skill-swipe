@@ -1,13 +1,15 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png'
+
 
 function Navigation() {
   return (
     <nav className="flex items-center justify-between p-4 shadow-sm">
       <div className="flex items-center">
         <Link to="/">
-          <img src="/logo.svg" alt="Skill Swipe Logo" className="h-8" />
+          <img src={logo} alt="Skill Swipe Logo" className="h-8" />
         </Link>
       </div>
       <div className="flex items-center gap-6">
