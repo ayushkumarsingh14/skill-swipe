@@ -6,7 +6,7 @@ const features = [
   { title: "Gamified Team Matching", image: "gamified-team.svg" },
   { title: "Daily Missions & Leaderboards", image: "leaderboards.svg" },
   { title: "AI Virtual Assistant", image: "ai-assistant.svg" },
-  { title: "Daily Events Update", image: "hiring.svg" },
+  { title: "Daily Event Update", image: "hiring.svg" },
   { title: "Schedule System", image: "startup.svg" },
 ];
 
