@@ -8,7 +8,7 @@ const testimonials = [
   {
     text: "Skill Swipe has transformed hackathons for us. The AI-powered team formation helped us match with the perfect teammates based on skills. The gamified experience made the whole process fun!",
     author: "John Smith",
-    role: "Hackathon Participant",
+    role: "College student (BCA)",
   },
   {
     text: "As a startup, we found exceptional talent through Skill Swipe. The platform's AI matching system helped us connect with skilled students who perfectly fit our team's needs.",
