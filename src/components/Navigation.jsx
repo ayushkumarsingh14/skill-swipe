@@ -14,7 +14,7 @@ function Navigation() {
       </div>
       <div className="flex items-center gap-6">
         <Link to="/hackathons" className="text-gray-700 hover:text-black transition-colors duration-300">
-          Events
+          EVENTS
         </Link>
         <Link to="/leaderboard" className="text-gray-700 hover:text-black transition-colors duration-300">
           LEADERBOARD
