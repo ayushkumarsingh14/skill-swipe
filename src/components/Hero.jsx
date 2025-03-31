@@ -15,7 +15,7 @@ function Hero() {
         </h1>
         <h1 className="text-6xl font-bold mb-4 tracking-tight leading-tight">excel</h1>
         <p className="text-xl mb-8">
-        Join hands with fellow students, participate in exciting challenges, and develop your skills—all on one platform.
+        Connect with top recruiters, showcase your skills, and climb the leaderboard—all on one platform designed to match talent with the right opportunities.
         </p>
         <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors duration-200">
           GET STARTED
